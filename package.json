@@ -1,0 +1,46 @@
+{
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "name": "nekonya.js",
+  "description": "NPM package for NekoNya API.",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekoNyaDevs/nekonya.js.git"
+  },
+  "keywords": [
+    "nekonya",
+    "anime",
+    "images",
+    "api",
+    "random",
+    "random-images",
+    "neko",
+    "hug",
+    "pat",
+    "pats",
+    "hugs",
+    "kiss",
+    "kisses"
+  ],
+  "author": "TheDogHusky <contact@classy.works>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NekoNyaDevs/nekonya.js/issues"
+  },
+  "homepage": "https://github.com/NekoNyaDevs/nekonya.js#readme",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "node-fetch": "^2.6.7"
+  }
+}
