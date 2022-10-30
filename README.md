@@ -1,7 +1,9 @@
 # 🌿・NekoNya.js
-[![npm](https://img.shields.io/npm/v/nekonya.js?style=flat-square)](https://www.npmjs.com/package/nekonya.js)
-[![npm](https://img.shields.io/npm/dt/nekonya.js?style=flat-square)](https://www.npmjs.com/package/nekonya.js)
-[![GitHub](https://img.shields.io/github/license/NekoNyaDevs/nekonya.js?style=flat-square)](https://github.com/NekoNyaDevs/nekonya.js/blob/main/LICENSE)
+[![version](https://img.shields.io/npm/v/nekonya.js?style=flat-square)](https://www.npmjs.com/package/nekonya.js)
+[![downloads](https://img.shields.io/npm/dt/nekonya.js?style=flat-square)](https://www.npmjs.com/package/nekonya.js)
+[![License](https://img.shields.io/github/license/NekoNyaDevs/nekonya.js?style=flat-square)](https://github.com/NekoNyaDevs/nekonya.js/blob/main/LICENSE)
+[![Chat](https://img.shields.io/discord/919240056408014910?style=flat-square)](https://discord.gg/trAQZB67)
+[![Dependents](https://img.shields.io/librariesio/dependents/npm/nekonya.js?style=flat-square)](https://www.npmjs.com/package/nekonya.js)
 
 NekoNya.js is a NekoNya API wrapper for Node.js.
 
