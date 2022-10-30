@@ -25,7 +25,7 @@ const NekoNya = require('nekonya.js');
 ```
 
 ## ❓・Documentation
-
+See our [official docs](https://docs.classy.works/nekonya.js-docs).
 - NekoNya
 - - neko() - Returns a random neko image URL.
 - - hug() - Returns a random hug image URL.
