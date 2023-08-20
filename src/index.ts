@@ -13,7 +13,7 @@ type randomEntries = "random/hug" | "random/kiss" | "random/pat" | "random/neko"
 type eightballJSONRes = {
     answer: string;
 }
-type eightballEntries = "8ball";
+type eightballEntries = `8ball?cute=${boolean}` | "8ball";
 
 type owoifyJSONRes = {
     result: string;
@@ -62,8 +62,9 @@ export async function slap(): Promise<string> {
     return res.url;
 }
 
-export async function eightball(): Promise<string> {
-    const res = await get("8ball");
+export async function eightball(cute?: boolean): Promise<string> {
+    const enableCute = cute || false;
+    const res = await get(`8ball?cute=${enableCute}`);
     return res.answer;
 }
 
