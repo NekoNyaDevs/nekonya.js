@@ -21,18 +21,21 @@ const NekoNya = require('nekonya.js');
 (async () => {
     const url = await NekoNya.neko();
     console.log(url);
-})()
+})();
 ```
 
 ## ❓・Documentation
-See our [official docs](https://docs.classy.works/nekonya.js-docs).
+See our [official docs](https://docs.classydev.fr/nekonya.js-docs).
 - NekoNya
-- - neko() - Returns a random neko image URL.
-- - hug() - Returns a random hug image URL.
-- - pat() - Returns a random pat image URL.
-- - kiss() - Returns a random kiss image URL.
-- - kitsune() - Returns a random kitsune image URL.
-- - get(endpoint: string) - Gets an image from the API (raw JSON) with a special endpoint parameter.
+  - neko() - Returns a random neko image URL.
+  - hug() - Returns a random hug image URL.
+  - pat() - Returns a random pat image URL.
+  - kiss() - Returns a random kiss image URL.
+  - kitsune() - Returns a random kitsune image URL.
+  - slap() - Returns a random slap image URL.
+  - eightball(cute?: boolean) - Returns a random 8ball answer.
+  - owoify(text: string) - Returns an owoified text.
+  - get(endpoint: string) - Gets an image from the API (raw JSON) with a special endpoint parameter.
 
 ## 📜・License
 
@@ -40,7 +43,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧・Contact
 
-You can contact me on [WorldWild Studios](https://worldwild.studio) official [Discord](https://discord.gg/Vh4bnWP5tc), or you can use my [contact email](mailto:contact@classy.works).
+You can contact me on [WorldWild Studios](https://worldwild.studio)'s official [Discord](https://discord.gg/Vh4bnWP5tc), or you can use my [contact email](mailto:contact@classy.works).
 
 ## 👥・Contributing
 
