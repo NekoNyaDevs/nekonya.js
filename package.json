@@ -4,7 +4,7 @@
   },
   "name": "nekonya.js",
   "description": "NPM package for NekoNya API.",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
