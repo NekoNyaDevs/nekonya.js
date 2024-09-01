@@ -1,8 +1,7 @@
 import fetch from 'node-fetch';
 
-const url = "https://nekonya.classy.works/api/";
+const url = "https://nekonya.classydev.fr/api/";
 export const version = "v1";
-export const latest = "v1";
 
 
 type randomJSONRes = {
