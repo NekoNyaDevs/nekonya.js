@@ -4,14 +4,14 @@
   },
   "name": "nekonya.js",
   "description": "NPM package for NekoNya API.",
-  "version": "1.1.8",
+  "version": "1.2.8",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build && node test/index",
     "build": "tsc",
     "publishRelease": "npm run build && npm publish"
   },
