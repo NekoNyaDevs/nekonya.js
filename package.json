@@ -13,7 +13,7 @@
   "scripts": {
     "test": "npm run build && node test/index",
     "build": "tsc",
-    "publish": "npm run build && npm publish"
+    "release": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
